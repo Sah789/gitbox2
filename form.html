@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Tag</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="index.html" method="post">
+
+       <label>Username:</label> <input type="text" required placeholder="Username"><br><br>
+        <label>Email:</label> <input type="email" required placeholder="example@gmail.com"><br><br>
+        <label>Password:</label> <input type="password" required placeholder="Password"><br><br>
+        <hr>
+        <label>Qualification:</label><br><br>
+        <input type="checkbox"><label>PH.D</label><br>
+        <input type="checkbox"><label>Post Graduation</label><br>
+        <input type="checkbox"><label>Graduation</label><br>
+        <input type="checkbox"><label>Diploma</label><br>
+        <hr>
+
+        <label>Gender:</label><br>
+        <input type="radio"  name="Gender" value="male" ><label>Male</label><br>
+        <input type="radio"  name="Gender" value="female" ><label>Female</label><br>
+        <input type="radio"  name="Gender" value="Other" id="Other"><label>Other</label><br>
+
+        <label>Date of birth:</label> <input type="date" id="dob" name="dob"><br><br>
+        <Label>Course</Label> 
+        <select>
+            <option value="Data Science">Data Science</option>
+            <option value="Full Stack">Full Stack</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Python">Python</option>
+        
+            </select>
+            <hr>
+
+             <Label>Message</Label> 
+
+            <textarea name="feedback" id="feedback" rows="6" cols="50"></textarea>
+            
+            
+        
+        <hr>
+        <input type="submit" name="" id=""> <button>Reset</button>
+
+    </form>
+
+    
+</body>
+</html>
